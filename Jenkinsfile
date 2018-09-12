@@ -1,4 +1,5 @@
 pipeline {
+agent any
     stage('Init'){
         steps{
             echo "Hi ... Step 1"
